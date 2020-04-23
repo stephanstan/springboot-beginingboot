@@ -21,7 +21,7 @@ public class FakePersonDataAccessServiceTest {
 
     @Test
     public void canPerformCrud() {
-        // Given person called James Bond aged 33
+        // Given person called James Bond
         UUID idOne = UUID.randomUUID();
         Person personOne = new Person(idOne, "James Bond");
 
@@ -67,7 +67,7 @@ public class FakePersonDataAccessServiceTest {
         assertThat(underTest.deletePersonById(idOne)).isEqualTo(1);
 
         // When get personOne should be empty
-   //     assertThat(underTest.deletePersonById(idOne)).isOne();
+        assertThat(underTest.deletePersonById(idOne)).isEqualTo(0);
 
         // Finally DB should only contain only Anna Smith
         assertThat(underTest.selectAllPeople())
