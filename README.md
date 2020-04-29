@@ -8,4 +8,10 @@
 
 ```
 docker run --name postgres-spring -e POSTGRES_PASSWORD=q1w2e3r4 -d -p 5432:5432 postgres:alpine
+
+PS C:\workspace> docker start postgres-spring
+postgres-spring
+PS C:\workspace> docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+7d3d64693904        postgres:alpine     "docker-entrypoint.s…"   3 days ago          Up 9 seconds        0.0.0.0:5432->5432/tcp   postgres-spring
 ```
