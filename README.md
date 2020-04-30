@@ -39,4 +39,8 @@ postgres=# CREATE DATABASE demodb;
 CREATE DATABASE
 postgres=#
 
+postgres=# \c demodb
+You are now connected to database "demodb" as user "postgres".
+demodb=#
+
 ```
