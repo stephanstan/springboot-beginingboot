@@ -35,4 +35,8 @@ postgres=# \l
 
 postgres=#
 
+postgres=# CREATE DATABASE demodb;
+CREATE DATABASE
+postgres=#
+
 ```
