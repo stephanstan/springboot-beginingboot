@@ -19,4 +19,6 @@ PS C:\workspace\springboot-beginning> docker port postgres-spring
 5432/tcp -> 0.0.0.0:5432
 
 docker exec -it 7d3d64693904 bin/bash
+
+bash-5.0# psql -U postgres
 ```
