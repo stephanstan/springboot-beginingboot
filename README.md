@@ -44,3 +44,9 @@ You are now connected to database "demodb" as user "postgres".
 demodb=#
 
 ```
+# pgAdmin4
+
+```
+http://localhost:80
+http://localhost/login?next=%2F
+```
