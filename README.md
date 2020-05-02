@@ -47,6 +47,8 @@ demodb=#
 # pgAdmin4
 
 ```
+ docker run -p 80:80 -e 'PGADMIN_DEFAULT_EMAIL=user@domain.com' -e 'PGADMIN_DEFAULT_PASSWORD=SuperSecret' -d dpage/pgadmin4
+ PS C:\workspace> docker start dpage/pgadmin4
 http://localhost:80
 http://localhost/login?next=%2F
 ```
